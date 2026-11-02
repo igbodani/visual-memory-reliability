@@ -1,0 +1,5 @@
+method,scorable_returned,geometric_passes,geometric_errors,conditional_error_percent,notes
+baseline,23,19,4,17.3913,context; more answers
+age_only,18,16,2,11.1111,matched 18-answer quota
+age_plus_similarity,18,17,1,5.5556,matched 18-answer quota
+always_decline,0,0,0,,conditional error undefined

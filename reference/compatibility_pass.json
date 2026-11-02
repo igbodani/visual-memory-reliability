@@ -1,0 +1,25 @@
+{
+  "status": "focused_smoke_test_passed_not_full_stack_validation",
+  "python": "3.10.22 (main, Oct  9 2026, 15:21:30) [Clang 22.1.3 ]",
+  "executable": "/content/stretch310/bin/python",
+  "gpu": "Tesla T4",
+  "code_commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+  "packages": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "transformers": "4.49.0",
+    "tokenizers": "0.21.4",
+    "huggingface-hub": "0.36.2",
+    "setuptools": "69.5.1",
+    "stretch-ai": "0.3.3",
+    "sam-2": "1.0",
+    "open3d": "0.20.0",
+    "numpy": "1.26.4",
+    "ultralytics": "8.3.161"
+  },
+  "siglip_text_shape": [
+    1,
+    768
+  ],
+  "known_override": "Transformers 4.49.0 is below Stretch's declared >=5.3.0 requirement."
+}

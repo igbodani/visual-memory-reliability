@@ -1,0 +1,5 @@
+Using Python 3.10.22 environment at: /content/stretch310
+Checked 222 packages in 6ms
+Found 2 incompatibilities
+The package `torch` requires `setuptools>=77.0.3`, but `69.5.1` is installed
+The package `stretch-ai` requires `transformers>=5.3.0`, but `4.49.0` is installed

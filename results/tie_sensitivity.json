@@ -1,0 +1,212 @@
+[
+  {
+    "method": "age_only",
+    "fraction": 0.25,
+    "quota": 6,
+    "boundary_score": -2.0,
+    "strictly_above": 5,
+    "boundary_tied": 5,
+    "boundary_slots": 1,
+    "min_wrong_across_valid_tie_orders": 0,
+    "max_wrong_across_valid_tie_orders": 1,
+    "saved_wrong": 0,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0036_006",
+        "query": "joystick",
+        "correct": true,
+        "age": 2
+      },
+      {
+        "query_id": "env2_q0036_005",
+        "query": "toy drill",
+        "correct": false,
+        "age": 2
+      },
+      {
+        "query_id": "env2_q0054_000",
+        "query": "toy owl",
+        "correct": true,
+        "age": 2
+      },
+      {
+        "query_id": "env2_q0036_010",
+        "query": "remote control",
+        "correct": true,
+        "age": 2
+      },
+      {
+        "query_id": "env2_q0054_001",
+        "query": "trash bin",
+        "correct": true,
+        "age": 2
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  },
+  {
+    "method": "combined",
+    "fraction": 0.25,
+    "quota": 6,
+    "boundary_score": 0.6578947368421052,
+    "strictly_above": 5,
+    "boundary_tied": 1,
+    "boundary_slots": 1,
+    "min_wrong_across_valid_tie_orders": 0,
+    "max_wrong_across_valid_tie_orders": 0,
+    "saved_wrong": 0,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0054_009",
+        "query": "toy drill",
+        "correct": true,
+        "age": 7
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  },
+  {
+    "method": "age_only",
+    "fraction": 0.5,
+    "quota": 12,
+    "boundary_score": -6.0,
+    "strictly_above": 11,
+    "boundary_tied": 1,
+    "boundary_slots": 1,
+    "min_wrong_across_valid_tie_orders": 1,
+    "max_wrong_across_valid_tie_orders": 1,
+    "saved_wrong": 1,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0054_002",
+        "query": "toy bear",
+        "correct": true,
+        "age": 6
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  },
+  {
+    "method": "combined",
+    "fraction": 0.5,
+    "quota": 12,
+    "boundary_score": 0.5263157894736842,
+    "strictly_above": 11,
+    "boundary_tied": 1,
+    "boundary_slots": 1,
+    "min_wrong_across_valid_tie_orders": 1,
+    "max_wrong_across_valid_tie_orders": 1,
+    "saved_wrong": 1,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0036_000",
+        "query": "bowl",
+        "correct": true,
+        "age": 1
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  },
+  {
+    "method": "age_only",
+    "fraction": 0.75,
+    "quota": 18,
+    "boundary_score": -9.0,
+    "strictly_above": 17,
+    "boundary_tied": 2,
+    "boundary_slots": 1,
+    "min_wrong_across_valid_tie_orders": 1,
+    "max_wrong_across_valid_tie_orders": 2,
+    "saved_wrong": 2,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0018_003",
+        "query": "green sugar package",
+        "correct": false,
+        "age": 9
+      },
+      {
+        "query_id": "env2_q0036_001",
+        "query": "trash can",
+        "correct": true,
+        "age": 9
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  },
+  {
+    "method": "combined",
+    "fraction": 0.75,
+    "quota": 18,
+    "boundary_score": 0.2894736842105263,
+    "strictly_above": 17,
+    "boundary_tied": 2,
+    "boundary_slots": 1,
+    "min_wrong_across_valid_tie_orders": 1,
+    "max_wrong_across_valid_tie_orders": 1,
+    "saved_wrong": 1,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0054_015",
+        "query": "green package",
+        "correct": true,
+        "age": 8
+      },
+      {
+        "query_id": "env2_q0018_000",
+        "query": "joystick",
+        "correct": true,
+        "age": 8
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  },
+  {
+    "method": "age_only",
+    "fraction": 1.0,
+    "quota": 23,
+    "boundary_score": -12.0,
+    "strictly_above": 22,
+    "boundary_tied": 1,
+    "boundary_slots": 1,
+    "min_wrong_across_valid_tie_orders": 4,
+    "max_wrong_across_valid_tie_orders": 4,
+    "saved_wrong": 4,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0018_008",
+        "query": "blue bottle",
+        "correct": true,
+        "age": 12
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  },
+  {
+    "method": "combined",
+    "fraction": 1.0,
+    "quota": 23,
+    "boundary_score": 0.10526315789473684,
+    "strictly_above": 21,
+    "boundary_tied": 2,
+    "boundary_slots": 2,
+    "min_wrong_across_valid_tie_orders": 4,
+    "max_wrong_across_valid_tie_orders": 4,
+    "saved_wrong": 4,
+    "boundary_candidates": [
+      {
+        "query_id": "env2_q0018_009",
+        "query": "remote control",
+        "correct": false,
+        "age": 10
+      },
+      {
+        "query_id": "env2_q0036_009",
+        "query": "green package",
+        "correct": false,
+        "age": 11
+      }
+    ],
+    "caution": "Posthoc sensitivity only; original frozen choices not changed or optimized on labels."
+  }
+]

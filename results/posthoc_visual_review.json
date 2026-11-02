@@ -1,0 +1,25 @@
+{
+  "review_type": "posthoc assistant visual inspection; not a new prediction or official label",
+  "review_date": "2026-10-27",
+  "query": "toy owl",
+  "scene": "env1",
+  "checkpoint": 14,
+  "evidence_frame_index": 12,
+  "conclusion": "selected a different object",
+  "basis": [
+    "The saved bounding box encloses the small green toy on the left. The white owl toy is visibly outside the box on the right.",
+    "The green-toy projected annotation lies inside the box; the owl annotation lies outside.",
+    "The detector-only replay returns the identical saved coordinate."
+  ],
+  "geometric_score_unchanged": true,
+  "error_m": 0.2750690905825581,
+  "tolerance_m": 0.3,
+  "distance_to_green_toy_annotation_m": 0.05381115624135086,
+  "limitations": "This is a review of this saved frame, not a human-certified dataset relabeling. Query-time annotation projections may differ from historical image positions. No scoring labels, frozen rules, or model outputs were modified.",
+  "evidence_files": [
+    "prior_audit/evidence_rgb.png",
+    "prior_audit/selected_box.png",
+    "prior_audit/projected_label_anchors.png",
+    "prior_audit/detector_replay.json"
+  ]
+}

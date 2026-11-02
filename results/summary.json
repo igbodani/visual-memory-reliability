@@ -1,0 +1,15 @@
+{
+  "status": "completed_diagnostic_pilot",
+  "develop_scene": "env1",
+  "heldout_scene": "env2",
+  "primary_questions": 120,
+  "inference_errors": 0,
+  "known_location_questions_heldout": 42,
+  "unknown_label_rows_total": 42,
+  "heldout_matched_quota": 18,
+  "age_only_wrong": 2,
+  "combined_wrong": 1,
+  "improvement": "tie_sensitive_one_geometric_error",
+  "validated_original_paper_reproduction": false,
+  "notes": "No statistically robust difference; missing-label and checkpoint semantics unresolved; YOLOE + SigLIP diagnostic."
+}

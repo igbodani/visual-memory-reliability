@@ -1,0 +1,82 @@
+{
+  "schema_version": 3,
+  "protocol_sha256": "21c37a63939fc79b0b5370a0c48a82473bc6b073b87595c05583d3e72f76dc28",
+  "development_scenes": [
+    "env1"
+  ],
+  "evaluation_scenes": [
+    "env2"
+  ],
+  "development_files_sha256": {
+    "env1": "d303e7841efb9299463bca552246fe22cb758df05491710eb5d441ccbd05cb80"
+  },
+  "scorable_development_queries": 36,
+  "development_answers": 19,
+  "selection": "Only development rows; no held-out labels. Fixed equal weights, quantile retention targets; not calibrated probabilities.",
+  "combined": {
+    "status": "available",
+    "transforms": {
+      "recency": [
+        -24.0,
+        -16.0,
+        -16.0,
+        -13.0,
+        -9.0,
+        -8.0,
+        -8.0,
+        -5.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -3.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0,
+        -0.0
+      ],
+      "similarity": [
+        0.04631296917796135,
+        0.04800986871123314,
+        0.04859217256307602,
+        0.04890221357345581,
+        0.05488777160644531,
+        0.06175922229886055,
+        0.06255270540714264,
+        0.06715349853038788,
+        0.06715349853038788,
+        0.06845923513174057,
+        0.07375834882259369,
+        0.07453518360853195,
+        0.07829325646162033,
+        0.07841940224170685,
+        0.07933651655912399,
+        0.08465559780597687,
+        0.08537356555461884,
+        0.08718903362751007,
+        0.10818704962730408
+      ]
+    },
+    "reason": null,
+    "missing_or_constant_optional_features": [
+      "detector_support"
+    ]
+  },
+  "thresholds": {
+    "age_only": {
+      "0.25": -1.0,
+      "0.5": -4.0,
+      "0.75": -9.0,
+      "1.0": null
+    },
+    "combined": {
+      "0.25": 0.631578947368421,
+      "0.5": 0.4868421052631579,
+      "0.75": 0.3289473684210526,
+      "1.0": null
+    }
+  },
+  "frozen_sha256": "e7119a4e6b53e0f4d9929325100b456d2e3b2fd039c0b433ff65885a24aedb79"
+}

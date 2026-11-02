@@ -1,0 +1,36 @@
+# Local dataset and large model files
+data/
+DynaBench*/
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.zip
+# Model caches, executions, and private evidence
+outputs/
+runs/
+scoring/
+prepared/
+prior_audit/
+setup_audits/
+*.log
+*.html
+*.png
+*.jpg
+*.jpeg
+*.webp
+# Python environments
+.venv/
+.venv-*/
+stretch310/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.env.*
+!.env.example

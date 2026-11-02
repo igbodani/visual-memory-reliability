@@ -1,0 +1,42 @@
+{
+  "only_age_kept": [
+    {
+      "query_id": "env2_q0018_000",
+      "query": "joystick",
+      "correct": true,
+      "distance_error_m": 0.04116524030369643,
+      "tolerance_m": 0.3,
+      "age_observation_steps": 8,
+      "similarity_max": 0.05509108677506447
+    },
+    {
+      "query_id": "env2_q0018_003",
+      "query": "green sugar package",
+      "correct": false,
+      "distance_error_m": 0.322015873132015,
+      "tolerance_m": 0.3,
+      "age_observation_steps": 9,
+      "similarity_max": 0.025954579934477806
+    }
+  ],
+  "only_combined_kept": [
+    {
+      "query_id": "env2_q0036_001",
+      "query": "trash can",
+      "correct": true,
+      "distance_error_m": 0.11535201952969852,
+      "tolerance_m": 0.5,
+      "age_observation_steps": 9,
+      "similarity_max": 0.07014210522174835
+    },
+    {
+      "query_id": "env2_q0036_002",
+      "query": "toy bear",
+      "correct": true,
+      "distance_error_m": 0.10267904263673887,
+      "tolerance_m": 0.3,
+      "age_observation_steps": 10,
+      "similarity_max": 0.10949748009443283
+    }
+  ]
+}

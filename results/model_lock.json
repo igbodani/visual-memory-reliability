@@ -1,0 +1,12 @@
+{
+  "encoder": "google/siglip-base-patch16-224",
+  "detector_backend": "YoloEPerception",
+  "detector_confidence": 0.05,
+  "encoder_revision": "7fd15f0689c79d79e38b1c2e2e2370a7bf2761ed",
+  "default_config_sha256": "3a49115a33a1b7623cd874c30b8bc5af09232763f178225d4b45c409952d1ce8",
+  "detector_source_sha256": "3f4703eef1076550993c3ac71b2082a8758b5656b264c7ce001659b529eef3ba",
+  "local_weights": {
+    "yoloe-v8l-seg.pt": "14e9c146f7f7efa0bfea8c5f82952c9f95fb1f9c3bf0f18b3727b76624f9d746",
+    "mobileclip_blt.ts": "a67804d1b0f07b8b9a20c1761ec0847f34660f5fa338ec70e8f3fce68ed95e54"
+  }
+}

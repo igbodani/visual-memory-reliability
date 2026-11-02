@@ -1,0 +1,35 @@
+{
+  "schema_version": 3,
+  "code_commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+  "dataset_revision": "1d561e2de8718addf398e5e967f2c44dc015c366",
+  "experiment_type": "current_code_yoloe_diagnostic_not_paper_reproduction",
+  "development_scenes": [
+    "env1"
+  ],
+  "evaluation_scenes": [
+    "env2"
+  ],
+  "primary_cutoff": "exclusive",
+  "cutoff_sensitivity": true,
+  "checkpoint_semantics": "unverified",
+  "checkpoint_evidence": null,
+  "blank_label_semantics": "unverified",
+  "blank_label_evidence": null,
+  "seed": 20261027,
+  "retention_fractions": [
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "primary_retention_fraction": 0.75,
+  "combined_features": [
+    "recency",
+    "similarity",
+    "detector_support"
+  ],
+  "minimum_development_answers": 5,
+  "policy_selection": "equal weights; development-only rank transforms and thresholds",
+  "age_unit": "number of observations since supporting frame, NOT elapsed seconds",
+  "source_config": "upstream defaults; no model, threshold, or color-path edits"
+}

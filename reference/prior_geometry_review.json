@@ -1,0 +1,136 @@
+{
+  "basis": "Uploaded saved real prediction, not a new model run",
+  "query": "toy owl",
+  "distance_error_m": 0.2750690905825581,
+  "tolerance_m": 0.3,
+  "geometric_pass": true,
+  "nearest_annotated_object": {
+    "query_label": "green toy",
+    "distance_from_saved_prediction_m": 0.05381115624135086,
+    "projected_query_time_anchor_uvz": [
+      129.99998463560883,
+      155.99999136225,
+      1.394999947043483
+    ],
+    "anchor_inside_selected_box": null,
+    "passes_own_tolerance": true
+  },
+  "possible_identity_mismatch": true,
+  "anchors": [
+    {
+      "query_label": "green toy",
+      "distance_from_saved_prediction_m": 0.05381115624135086,
+      "projected_query_time_anchor_uvz": [
+        129.99998463560883,
+        155.99999136225,
+        1.394999947043483
+      ],
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": true
+    },
+    {
+      "query_label": "toy owl",
+      "distance_from_saved_prediction_m": 0.2750690905825581,
+      "projected_query_time_anchor_uvz": [
+        187.99998890256086,
+        141.99997428709005,
+        1.3779999789431525
+      ],
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": true
+    },
+    {
+      "query_label": "cutting board",
+      "distance_from_saved_prediction_m": 0.46734716064037257,
+      "projected_query_time_anchor_uvz": [
+        29.99742271894038,
+        184.24916829909537,
+        1.3595001018463382
+      ],
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": true
+    },
+    {
+      "query_label": "banana",
+      "distance_from_saved_prediction_m": 2.0888684917952025,
+      "projected_query_time_anchor_uvz": [
+        -8296.427391482843,
+        4131.749860652159,
+        0.04763152865751538
+      ],
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "metal bowl",
+      "distance_from_saved_prediction_m": 2.126362865885488,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "green sugar package",
+      "distance_from_saved_prediction_m": 2.261625205747865,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "red cup",
+      "distance_from_saved_prediction_m": 2.2925105129239483,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "orange",
+      "distance_from_saved_prediction_m": 2.3183583125609197,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "lemon juice",
+      "distance_from_saved_prediction_m": 2.328140840017598,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "apple",
+      "distance_from_saved_prediction_m": 2.360763568279396,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "remote control",
+      "distance_from_saved_prediction_m": 2.4307885406727086,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "white camera",
+      "distance_from_saved_prediction_m": 2.516667551177213,
+      "projected_query_time_anchor_uvz": [
+        5771.370431090772,
+        353.44210786268667,
+        0.11970701645929205
+      ],
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    },
+    {
+      "query_label": "joystick",
+      "distance_from_saved_prediction_m": 3.1303320793469545,
+      "projected_query_time_anchor_uvz": null,
+      "anchor_inside_selected_box": null,
+      "passes_own_tolerance": false
+    }
+  ],
+  "semantic_identity": "not established by coordinate proximity or projected centroids",
+  "time_convention": "unverified; saved run used exclusive 0..13",
+  "anchor_caution": "Targets describe query time, not guaranteed exact supporting-frame pixels. An anchor inside a box is supporting evidence, not semantic ground truth.",
+  "selected_box_available": false
+}

@@ -1,0 +1,56 @@
+{
+  "status": "prediction_produced_unscored",
+  "experiment_type": "current_code_yoloe_diagnostic_not_paper_reproduction",
+  "scene": "env1",
+  "query": "toy owl",
+  "query_checkpoint": 14,
+  "eligible_frame_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "cutoff_status": "assumed_frame_index_lt_checkpoint_not_verified_official",
+  "prediction_xyz": [
+    -1.4405548572540283,
+    0.6795975565910339,
+    0.8010468482971191
+  ],
+  "evidence_observation_id": 13,
+  "evidence_frame_index": 12,
+  "raw_similarity_point": [
+    -1.2727159261703491,
+    0.5569901466369629,
+    -0.07690384238958359
+  ],
+  "debug_text": "#### - Object is detected in observations . **\ud83d\ude03** Directly navigate to it.\n",
+  "detector_backend": "YoloEPerception",
+  "detector_access": "sensor._segmentation",
+  "encoder": "google/siglip-base-patch16-224",
+  "code_commit": "6272b28e3ff7be482af3b427a4551d1772ebf7d7",
+  "dataset_revision": "1d561e2de8718addf398e5e967f2c44dc015c366",
+  "packages": {
+    "torch": "2.14.1+cu126",
+    "torchvision": "0.29.1+cu126",
+    "transformers": "4.49.0",
+    "tokenizers": "0.21.4",
+    "huggingface-hub": "0.36.2",
+    "setuptools": "69.5.1",
+    "stretch-ai": "0.3.3",
+    "sam-2": "1.0",
+    "open3d": "0.20.0",
+    "numpy": "1.26.4",
+    "ultralytics": "8.3.161"
+  },
+  "query_rule": "upstream localize_with_feature_similarity defaults; no new rejection gate"
+}
